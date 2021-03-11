@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+@import "./css/all.css";
+
+@import "tailwind/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.link {
+  @apply text-gray-600;
+  @apply no-underline;
+  @apply font-bold;
+  transition: 0.2s;
+}
+
+.link:hover {
+  @apply text-purple-500;
+}
+
+.commentbutton {
+  background: #111827;
+  color: white;
+  border: 5px #111827 solid;
+}
+
+.commentbutton:hover {
+  background: white;
+  color: #111827;
+  border: 5px #111827 solid;
+}
